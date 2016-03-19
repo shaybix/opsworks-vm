@@ -28,6 +28,7 @@
         "keyboard-configuration/variant=USA console-setup/ask_detect=false ",
         "initrd=/install/initrd.gz -- <enter>"
       ],
+      "ssh_wait_timeout":"3600s",
       "shutdown_command": "echo 'vagrant' | sudo -S -E shutdown -P now",
       "hard_drive_interface": "sata"
     },
@@ -57,6 +58,7 @@
         "keyboard-configuration/variant=USA console-setup/ask_detect=false ",
         "initrd=/install/initrd.gz -- <enter>"
       ],
+      "ssh_wait_timeout":"3600s",
       "shutdown_command": "echo 'vagrant' | sudo -S -E shutdown -P now",
       "tools_upload_flavor": "linux",
       "tools_upload_path": "vmware_tools.iso",
